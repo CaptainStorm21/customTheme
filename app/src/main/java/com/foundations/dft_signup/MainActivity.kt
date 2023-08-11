@@ -11,7 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.foundations.dft_signup.ui.theme.DftsignupTheme
-import com.foundations.dft_signup.ui.theme.opening_screen.OpeningScreen
+import com.foundations.dft_signup.opening_screen.OpeningScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

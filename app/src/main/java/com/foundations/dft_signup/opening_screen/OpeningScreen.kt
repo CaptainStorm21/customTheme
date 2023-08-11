@@ -1,4 +1,4 @@
-package com.foundations.dft_signup.ui.theme.opening_screen
+package com.foundations.dft_signup.opening_screen
 
 import android.graphics.drawable.Icon
 import android.media.Image
@@ -32,6 +32,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.ui.res.painterResource
+import com.cursedfood.jetbizcard.ui.theme.coffeeBean90
 
 @Composable
 fun OpeningScreen() {
@@ -39,7 +40,7 @@ fun OpeningScreen() {
         Box(
             modifier = Modifier
                 .fillMaxSize()
-                .background(Color.White) // Change color if needed
+                .background(coffeeBean90) // Change color if needed
         ) {
         ImageComponent()
         }
